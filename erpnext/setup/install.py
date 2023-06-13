@@ -66,7 +66,7 @@ def set_single_defaults():
 			except frappe.ValidationError:
 				pass
 
-	frappe.db.set_default("date_format", "YYYY-mm-dd")
+	frappe.db.set_default("date_format", "yyyy-mm-dd")
 
 	setup_currency_exchange()
 
